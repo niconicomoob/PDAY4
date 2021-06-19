@@ -23,7 +23,7 @@ public class TouchManager : MonoBehaviour
         }
     }
 
-    private TouchManager _info = new TouchManager();
+    private TouchManager _info = new Touchinfo();
     private event System.Action<TouchManager> _began;
     private event System.Action<TouchManager> _moved;
     private event System.Action<TouchManager> _ended;
